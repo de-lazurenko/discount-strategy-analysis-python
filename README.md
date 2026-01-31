@@ -12,22 +12,22 @@ The goal of this project was to analyze Eniac's historical sales data (2017-2018
 ## 📊 Business Questions & Insights
 
 ### 1. The State of Discounts
-* **Observation:** Discounts have become the default state rather than a tactical tool. [cite_start]**93% of all order lines** were sold at a discount[cite: 8].
-* [cite_start]**Impact:** This signals permanent markdowns, which can dilute brand value and lead to "promotion fatigue" among customers[cite: 8].
+* **Observation:** Discounts have become the default state rather than a tactical tool. **93% of all order lines** were sold at a discount.
+* **Impact:** This signals permanent markdowns, which can dilute brand value and lead to "promotion fatigue" among customers.
 
 ### 2. Finding the "Sweet Spot"
-* [cite_start]**Insight:** Revenue peaks at a moderate discount depth of **20-25%**[cite: 8, 14].
-* [cite_start]**Diminishing Returns:** Deeper cuts (exceeding 30%) fail to deliver incremental volume gains and significantly damage the net margin[cite: 8, 14].
+* **Insight:** Revenue peaks at a moderate discount depth of **20-25%**.
+* **Diminishing Returns:** Deeper cuts (exceeding 30%) fail to deliver incremental volume gains and significantly damage the net margin.
 
 ### 3. Seasonality vs. Discount Depth
-* [cite_start]**Insight:** Sales spikes are primarily driven by **calendar events** (like Black Friday and Q4) rather than the size of the discount itself[cite: 8].
-* [cite_start]**Correlation:** Outside of these peak periods, the correlation between discount size and day-to-day revenue remains low[cite: 8, 14].
+* **Insight:** Sales spikes are primarily driven by **calendar events** (like Black Friday and Q4) rather than the size of the discount itself.
+* **Correlation:** Outside of these peak periods, the correlation between discount size and day-to-day revenue remains low.
 
 ## 📂 Project Structure
 * `discount_analysis.ipynb`: Full Python pipeline including data cleaning (ETL), statistical analysis, and visualization.
 * `Discount_Strategy_Presentation.pdf`: Executive summary with visual data storytelling and strategic recommendations.
 
 ## 💡 Final Recommendations
-1. [cite_start]**Shift to Event-Driven Strategy:** Concentrate the discount budget on high-seasonality periods where price elasticity is highest[cite: 15].
-2. **Optimize Discount Depth:** Reduce "always-on" 30%+ discounts. [cite_start]Focus on the **20-25% range** to protect profit margins while maintaining peak revenue[cite: 15].
-3. [cite_start]**Tiered Product Approach:** Maintain premium "anchor" products (like Smartphones) with minimal discounts, while using Accessories as high-discount traffic magnets[cite: 15].
+1. **Shift to Event-Driven Strategy:** Concentrate the discount budget on high-seasonality periods where price elasticity is highest.
+2. **Optimize Discount Depth:** Reduce "always-on" 30%+ discounts. Focus on the **20-25% range** to protect profit margins while maintaining peak revenue.
+3. **Tiered Product Approach:** Maintain premium "anchor" products (like Smartphones) with minimal discounts, while using Accessories as traffic magnets.
