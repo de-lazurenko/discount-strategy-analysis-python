@@ -22,11 +22,12 @@ Sales spikes are primarily driven by **calendar events** (like Black Friday and 
 
 <table border="0">
   <tr>
-    <td width="48%" valign="top">
+    <td width="55%" valign="middle">
       <img src="image/revenue_seasonality.png" width="100%" alt="Revenue Seasonality">
       <p align="center"><em>Revenue Seasonality</em></p>
     </td>
-    <td width="4%" border="0"></td> <td width="48%" valign="top">
+    <td width="2%"></td> 
+    <td width="43%" valign="middle">
       <img src="image/discount_seasonality.png" width="100%" alt="Discount Seasonality">
       <p align="center"><em>Discount Seasonality</em></p>
     </td>
