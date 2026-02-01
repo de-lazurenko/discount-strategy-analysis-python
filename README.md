@@ -14,14 +14,14 @@ Analysis shows that discounts have become the default state rather than a tactic
 Through scenario modeling, I found that revenue peaks at a moderate discount depth of **20-25%**. Deeper cuts (exceeding 30%) fail to deliver incremental volume gains and significantly damage the net margin.
 
 <p align="left">
-  <img src="images/sweet_spot.png" width="600" alt="Optimal Revenue Zone">
+  <img src="image/sweet_spot.png" width="600" alt="Optimal Revenue Zone">
 </p>
 
 ### 3. Seasonality vs. Discount Depth
 Sales spikes are primarily driven by **calendar events** (like Black Friday and Q4) rather than the size of the discount itself. Outside of these peak periods, the correlation between discount size and day-to-day revenue remains low.
 
 <p align="left">
-  <img src="images/discount_seasonality.png" width="600" alt="Seasonality of discounts">
+  <img src="image/discount_seasonality.png" width="600" alt="Seasonality of discounts">
 </p>
 
 ---
