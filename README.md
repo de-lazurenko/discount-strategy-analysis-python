@@ -14,7 +14,7 @@ Analysis reveals that discounting has shifted from a tactical lever to a permane
 Through scenario modeling, I identified a clear **Optimal Revenue Zone**. Revenue peaks at a moderate discount depth of **20-25%**. Beyond 30%, additional discounts fail to generate incremental volume and lead to a sharp decline in net margins.
 
 <p align="left">
-  <img src="image/sweet_spot.png" width="600" alt="Optimal Revenue Zone">
+  <img src="images/sweet_spot.png" width="600" alt="Optimal Revenue Zone">
 </p>
 
 ### 3. Seasonality vs. Price Elasticity
@@ -23,12 +23,12 @@ Sales spikes are primarily synchronized with **major calendar events** (e.g., Bl
 <table border="0">
   <tr>
     <td width="47%" valign="middle">
-      <img src="image/revenue_seasonality.png" width="100%" alt="Revenue Seasonality">
+      <img src="images/revenue_seasonality.png" width="100%" alt="Revenue Seasonality">
       <p align="center"><em>Figure 1: Revenue Seasonality Trends</em></p>
     </td>
     <td width="2%"></td> 
     <td width="44%" valign="middle">
-      <img src="image/discount_seasonality.png" width="100%" alt="Discount Seasonality">
+      <img src="images/discount_seasonality.png" width="100%" alt="Discount Seasonality">
       <p align="center"><em>Figure 2: Discount Depth Volatility</em></p>
     </td>
   </tr>
