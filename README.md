@@ -10,10 +10,6 @@ The goal of this project was to analyze Eniac's historical sales data (2017-2018
 ### 1. The State of Discounts
 Analysis shows that discounts have become the default state rather than a tactical tool. **93.1% of all items** were sold at a discount, signaling permanent markdowns which can dilute brand value over time.
 
-<p align="left">
-  <img src="images/pie.png" width="600" alt="Discount Coverage Analysis">
-</p>
-
 ### 2. Finding the "Sweet Spot"
 Through scenario modeling, I found that revenue peaks at a moderate discount depth of **20-25%**. Deeper cuts (exceeding 30%) fail to deliver incremental volume gains and significantly damage the net margin.
 
@@ -25,7 +21,7 @@ Through scenario modeling, I found that revenue peaks at a moderate discount dep
 Sales spikes are primarily driven by **calendar events** (like Black Friday and Q4) rather than the size of the discount itself. Outside of these peak periods, the correlation between discount size and day-to-day revenue remains low.
 
 <p align="left">
-  <img src="images/seasonality.png" width="600" alt="Seasonality and Revenue Spikes">
+  <img src="images/discount_seasonality.png" width="600" alt="Seasonality of discounts">
 </p>
 
 ---
@@ -43,4 +39,4 @@ Sales spikes are primarily driven by **calendar events** (like Black Friday and 
 ## 💡 Final Recommendations
 1. **Shift to Event-Driven Strategy:** Concentrate the discount budget on high-seasonality periods where price elasticity is highest.
 2. **Optimize Discount Depth:** Focus on the **20-25% range** to protect profit margins while maintaining peak revenue.
-3. **Tiered Product Approach:** Maintain premium anchors (like Apple desktops) with minimal discounts, while using accessories as traffic magnets.
+3. **Tiered Product Approach:** Maintain premium anchors with minimal discounts, while using accessories as traffic magnets.
