@@ -47,6 +47,6 @@ Sales spikes are primarily synchronized with **major calendar events** (e.g., Bl
 * `Eniac_Discount_Strategy.pdf` — Executive summary with visual storytelling and strategic data-driven recommendations.
 
 ## 💡 Strategic Recommendations
-1. **Event-Driven Discounting:** Reallocate the marketing budget to high-seasonality periods where price elasticity is naturally higher.
-2. **Threshold Optimization:** Cap general discounts at the **20-25% range** to maintain a healthy balance between volume and profit.
-3. **Product-Tiered Pricing:** Protect "Premium Anchors" (e.g., Apple hardware) from deep discounts, using accessories as the primary "Traffic Magnets."
+1. Reallocate the marketing budget to high-seasonality periods where price elasticity is naturally higher.
+2. Cap general discounts at the **20-25% range** to maintain a healthy balance between volume and profit.
+3. Protect "Premium Anchors" (e.g., Apple hardware) from deep discounts, using accessories as the primary "Traffic Magnets."
