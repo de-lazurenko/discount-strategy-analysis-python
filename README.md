@@ -44,7 +44,7 @@ Sales spikes are primarily synchronized with **major calendar events** (e.g., Bl
 
 ## 📂 Project Structure
 * `discount_analysis.ipynb` — Full end-to-end Python pipeline (Data cleaning, processing, and visualization).
-* `Eniac_Discount_Strategy.pdf` — Executive summary with visual storytelling and strategic data-driven recommendations.
+* `discount_strategy_presentation.pdf` — Executive summary with visual storytelling and strategic data-driven recommendations.
 
 ## 💡 Strategic Recommendations
 1. Reallocate the marketing budget to high-seasonality periods where price elasticity is naturally higher.
