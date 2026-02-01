@@ -20,18 +20,10 @@ Through scenario modeling, I found that revenue peaks at a moderate discount dep
 ### 3. Seasonality vs. Discount Depth
 Sales spikes are primarily driven by **calendar events** (like Black Friday and Q4) rather than the size of the discount itself. Outside of these peak periods, the correlation between discount size and day-to-day revenue remains low.
 
-<table border="0">
-  <tr>
-    <td align="center" width="50%">
-      <img src="image/revenue_seasonality.png" style="width:100%" alt="Revenue Seasonality">
-      <br><em>Revenue Seasonality</em>
-    </td>
-    <td align="center" width="50%">
-      <img src="image/discount_seasonality.png" style="width:100%" alt="Discount Seasonality">
-      <br><em>Discount Seasonality</em>
-    </td>
-  </tr>
-</table>
+<p align="left">
+  <img src="image/revenue_seasonality.png" height="300" alt="Revenue Seasonality">
+  &nbsp;&nbsp; <img src="image/discount_seasonality.png" height="300" alt="Discount Seasonality">
+</p>
 
 ---
 
