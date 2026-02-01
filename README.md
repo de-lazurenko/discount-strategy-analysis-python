@@ -21,12 +21,14 @@ Through scenario modeling, I found that revenue peaks at a moderate discount dep
 Sales spikes are primarily driven by **calendar events** (like Black Friday and Q4) rather than the size of the discount itself. Outside of these peak periods, the correlation between discount size and day-to-day revenue remains low.
 
 <p align="left">
-  <img src="image/discount_seasonality.png" width="600" alt="Seasonality of discounts">
+  <img src="image/revenue_seasonality.png" width="600" alt="Seasonality of discounts">
 </p>
 
 <p align="left">
-  <img src="image/revenue_seasonality.png" width="600" alt="Seasonality of discounts">
+  <img src="image/discount_seasonality.png" width="600" alt="Seasonality of discounts">
 </p>
+
+
 
 ---
 
@@ -38,7 +40,7 @@ Sales spikes are primarily driven by **calendar events** (like Black Friday and 
 
 ## 📂 Project Structure
 * `discount_analysis.ipynb` — Full Python pipeline including data cleaning (ETL), statistical analysis, and visualization.
-* `Group_study_project_Eniac’s_Discount_Strategy.pdf` — Executive summary with visual data storytelling and strategic recommendations.
+* `Eniac_Discount_Strategy.pdf` — Executive summary with visual data storytelling and strategic recommendations.
 
 ## 💡 Final Recommendations
 1. **Shift to Event-Driven Strategy:** Concentrate the discount budget on high-seasonality periods where price elasticity is highest.
