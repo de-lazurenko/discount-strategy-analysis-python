@@ -10,10 +10,6 @@ The objective of this project was to evaluate the impact of Eniac's permanent di
 ### 1. The "Default Discount" Trap
 Analysis reveals that discounting has shifted from a tactical lever to a permanent state. **93.1% of all order lines** were sold with a markdown, indicating a high dependency on price-cutting that may dilute brand equity in the long run.
 
-<p align="left">
-  <img src="image/pie.png" width="600" alt="Discount Coverage Analysis">
-</p>
-
 ### 2. Identifying the "Sweet Spot"
 Through scenario modeling, I identified a clear **Optimal Revenue Zone**. Revenue peaks at a moderate discount depth of **20-25%**. Beyond 30%, additional discounts fail to generate incremental volume and lead to a sharp decline in net margins.
 
