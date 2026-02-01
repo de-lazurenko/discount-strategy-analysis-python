@@ -43,6 +43,6 @@ Sales spikes are primarily driven by **calendar events** (like Black Friday and 
 * `Eniac_Discount_Strategy.pdf` — Executive summary with visual data storytelling and strategic recommendations.
 
 ## 💡 Final Recommendations
-1. **Shift to Event-Driven Strategy:** Concentrate the discount budget on high-seasonality periods where price elasticity is highest.
-2. **Optimize Discount Depth:** Focus on the **20-25% range** to protect profit margins while maintaining peak revenue.
-3. **Tiered Product Approach:** Maintain premium anchors with minimal discounts, while using accessories as traffic magnets.
+1. Concentrate the discount budget on high-seasonality periods where price elasticity is highest.
+2. Focus on the **20-25% range** to protect profit margins while maintaining peak revenue.
+3. Maintain premium anchors with minimal discounts, while using accessories as traffic magnets.
