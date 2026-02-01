@@ -1,52 +1,56 @@
 # Eniac's Discount Strategy: Revenue & Margin Optimization
 
 ## 📌 Project Overview
-The goal of this project was to analyze Eniac's historical sales data (2017-2018) to evaluate the effectiveness of their permanent discount model. By analyzing over 46,000 orders, I identified the "sweet spot" for discount depth that maximizes revenue without unnecessarily eroding profit margins.
+The objective of this project was to evaluate the impact of Eniac's permanent discount model on its financial performance (2017-2018). By analyzing **46,000+ orders**, I identified the optimal discount threshold to maximize revenue while halting unnecessary margin erosion.
 
 ---
 
-## 📊 Business Insights & Visual Analysis
+## 📊 Key Business Insights
 
-### 1. The State of Discounts
-Analysis shows that discounts have become the default state rather than a tactical tool. **93.1% of all items** were sold at a discount, signaling permanent markdowns which can dilute brand value over time.
+### 1. The "Default Discount" Trap
+Analysis reveals that discounting has shifted from a tactical lever to a permanent state. **93.1% of all order lines** were sold with a markdown, indicating a high dependency on price-cutting that may dilute brand equity in the long run.
 
-### 2. Finding the "Sweet Spot"
-Through scenario modeling, I found that revenue peaks at a moderate discount depth of **20-25%**. Deeper cuts (exceeding 30%) fail to deliver incremental volume gains and significantly damage the net margin.
+<p align="left">
+  <img src="image/pie.png" width="600" alt="Discount Coverage Analysis">
+</p>
+
+### 2. Identifying the "Sweet Spot"
+Through scenario modeling, I identified a clear **Optimal Revenue Zone**. Revenue peaks at a moderate discount depth of **20-25%**. Beyond 30%, additional discounts fail to generate incremental volume and lead to a sharp decline in net margins.
 
 <p align="left">
   <img src="image/sweet_spot.png" width="600" alt="Optimal Revenue Zone">
 </p>
 
-### 3. Seasonality vs. Discount Depth
-Sales spikes are primarily driven by **calendar events** (like Black Friday and Q4) rather than the size of the discount itself. Outside of these peak periods, the correlation between discount size and day-to-day revenue remains low.
+### 3. Seasonality vs. Price Elasticity
+Sales spikes are primarily synchronized with **major calendar events** (e.g., Black Friday, Q4 holidays) rather than the depth of the discount itself. Outside of peak periods, the correlation between discount size and daily revenue remains statistically weak.
 
 <table border="0">
   <tr>
     <td width="47%" valign="middle">
       <img src="image/revenue_seasonality.png" width="100%" alt="Revenue Seasonality">
-      <p align="center"><em>Revenue Seasonality</em></p>
+      <p align="center"><em>Figure 1: Revenue Seasonality Trends</em></p>
     </td>
     <td width="2%"></td> 
     <td width="44%" valign="middle">
       <img src="image/discount_seasonality.png" width="100%" alt="Discount Seasonality">
-      <p align="center"><em>Discount Seasonality</em></p>
+      <p align="center"><em>Figure 2: Discount Depth Volatility</em></p>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Methodology
 * **Language:** Python (Pandas, NumPy)
 * **Visualization:** Matplotlib, Seaborn
-* **Analysis:** Exploratory Data Analysis (EDA), Correlation Analysis, Scenario Modeling
-* **Domain:** E-commerce, Pricing Strategy
+* **Analytics:** ETL (Data Cleaning), Correlation Analysis, Time-Series Analysis, Scenario Modeling
+* **Domain:** E-commerce / Revenue Management
 
 ## 📂 Project Structure
-* `discount_analysis.ipynb` — Full Python pipeline including data cleaning (ETL), statistical analysis, and visualization.
-* `Eniac_Discount_Strategy.pdf` — Executive summary with visual data storytelling and strategic recommendations.
+* `discount_analysis.ipynb` — Full end-to-end Python pipeline (Data cleaning, processing, and visualization).
+* `Eniac_Discount_Strategy.pdf` — Executive summary with visual storytelling and strategic data-driven recommendations.
 
-## 💡 Final Recommendations
-1. Concentrate the discount budget on high-seasonality periods where price elasticity is highest.
-2. Focus on the **20-25% range** to protect profit margins while maintaining peak revenue.
-3. Maintain premium anchors with minimal discounts, while using accessories as traffic magnets.
+## 💡 Strategic Recommendations
+1. **Event-Driven Discounting:** Reallocate the marketing budget to high-seasonality periods where price elasticity is naturally higher.
+2. **Threshold Optimization:** Cap general discounts at the **20-25% range** to maintain a healthy balance between volume and profit.
+3. **Product-Tiered Pricing:** Protect "Premium Anchors" (e.g., Apple hardware) from deep discounts, using accessories as the primary "Traffic Magnets."
